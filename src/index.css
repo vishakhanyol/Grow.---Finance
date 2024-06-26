@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-royal {
+  @apply bg-gradient-to-r from-black via-purple-800 to-gray-300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.text-royal {
+  @apply text-white;
 }
+
+.button-royal {
+  @apply bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded;
+}
+/*<uniquifier>: Use a unique and descriptive class name */
+/*<weight>: Use a value from 100 to 900 */
+
+/*.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
