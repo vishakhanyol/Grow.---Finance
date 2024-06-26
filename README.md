@@ -1,10 +1,10 @@
-# Grow.---Finance
+# Grow.
 
-Welcome to Grow.---Finance, a website designed to help you manage your personal finances effectively.
+Welcome to Grow., a website designed to help you manage your personal finances effectively.
 
 ## Description
 
-This website aims to provide users with tools and resources to track expenses, set budgets, and achieve financial goals. Whether you're new to budgeting or looking to optimize your financial planning, Grow.---Finance offers intuitive features to support your journey towards financial wellness.
+This website aims to provide users with tools and resources to track expenses, set budgets, and achieve financial goals. Whether you're new to budgeting or looking to optimize your financial planning, Grow. offers intuitive features to support your journey towards financial wellness.
 
 ## Features
 
